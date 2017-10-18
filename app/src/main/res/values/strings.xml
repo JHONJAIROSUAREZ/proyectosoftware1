@@ -2,6 +2,6 @@
     <string name="app_name">proyecto software1</string>
     <string name="ingresar">INGRESAR</string>
     <string name="modificar">MODIFICAR</string>>
-    <string name="cliente">CLIENTE</string>
+    <string name="cliente">CLIENTES</string>
     <string name="titulo_emanuel">DISTRIBUCIONES EMANUEL</string>
 </resources>
