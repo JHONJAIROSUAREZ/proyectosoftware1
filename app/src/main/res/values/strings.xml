@@ -4,4 +4,10 @@
     <string name="modificar">MODIFICAR</string>>
     <string name="cliente">CLIENTES</string>
     <string name="titulo_emanuel">DISTRIBUCIONES EMANUEL</string>
+    <string name="Granos">GRANOS</string>
+    <string name="lacteos">LACTEOS</string>
+    <string name="cacharreria">CACHARRERIA</string>
+    <string name="medicamentos">MEDICAMENTOS</string>
+    <string name="dulcerias">DULCERIAS</string>
+    <string name="carnes_frias">CARNES FRIAS</string>
 </resources>
