@@ -74,6 +74,38 @@
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:text="@string/lacteos"
+        app:layout_constraintBottom_toTopOf="@+id/btndulceria"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <Button
+        android:id="@+id/btndulceria"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/dulcerias"
+        app:layout_constraintBottom_toTopOf="@+id/btncarnesfrias"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintHorizontal_bias="0.52" />
+
+    <Button
+        android:id="@+id/btncarnesfrias"
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/carnes_frias"
         app:layout_constraintBottom_toTopOf="@+id/btncacharreria"
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -91,50 +123,18 @@
         android:layout_marginRight="8dp"
         android:text="@string/cacharreria"
         app:layout_constraintBottom_toTopOf="@+id/btnmedicamentos"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintHorizontal_bias="0.52" />
+        tools:layout_constraintRight_creator="1" />
 
     <Button
         android:id="@+id/btnmedicamentos"
         android:layout_width="213dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
         android:text="@string/medicamentos"
-        app:layout_constraintBottom_toTopOf="@+id/btndulcerias"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
-
-    <Button
-        android:id="@+id/btndulcerias"
-        android:layout_width="213dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/dulcerias"
-        app:layout_constraintBottom_toTopOf="@+id/btncarnes_frias"
-        app:layout_constraintHorizontal_bias="0.52"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1" />
-
-    <Button
-        android:id="@+id/btncarnes_frias"
-        android:layout_width="213dp"
-        android:layout_height="wrap_content"
-        android:text="@string/carnes_frias"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="@+id/constraintLayout"
