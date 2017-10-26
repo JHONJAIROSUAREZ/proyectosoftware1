@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.jj.proyectosoftware1.Main2Activity"
-    android:background="#aeaeae">
+    android:background="#0F0E0E">
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -16,7 +16,7 @@
         android:layout_marginLeft="0dp"
         android:layout_marginRight="0dp"
         android:layout_marginStart="32dp"
-        android:background="#2f4d78"
+        android:background="#0F0E0E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

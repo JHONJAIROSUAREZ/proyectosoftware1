@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-Button ingresar;
+Button ingresar,modificar,clientes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +20,22 @@ Button ingresar;
             public void onClick(View view) {
                Intent ingresar = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(ingresar);
+            }
+        });
+        clientes = (Button)findViewById(R.id.btncliente);
+        clientes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent clientes = new Intent(MainActivity.this, registerclients.class);
+                startActivity(clientes);
+            }
+        });
+        modificar = (Button)findViewById(R.id.btnmodificar);
+        modificar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent modificar = new Intent(MainActivity.this, ModificarP.class);
+                startActivity(modificar);
             }
         });
 }
