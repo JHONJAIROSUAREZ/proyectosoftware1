@@ -27,7 +27,10 @@
         <activity
             android:name=".registerclients"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".ModificarP"
+        <activity
+            android:name=".ModificarP"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
