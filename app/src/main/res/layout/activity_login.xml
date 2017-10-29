@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jj.proyectosoftware1.login">
+    tools:context="com.example.jj.proyectosoftware1.login"
+    android:background="#000000">
     <android.support.constraint.ConstraintLayout
         android:layout_width="284dp"
         android:layout_height="306dp"
@@ -12,10 +13,11 @@
         tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginLeft="40dp"
+android:background="#737373"
         android:layout_marginTop="85dp"
         android:layout_marginStart="42dp"
-        android:id="@+id/constraintLayout3">
+        android:id="@+id/constraintLayout3"
+        >
 
         <EditText
             android:id="@+id/editText3"
@@ -23,7 +25,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Usuario"
+            android:hint="@string/usuario"
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             app:layout_constraintRight_toRightOf="parent"
@@ -39,7 +41,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPassword"
-            android:hint="contraseña"
+            android:hint="@string/contrase_a"
             tools:layout_constraintTop_creator="1"
             tools:layout_constraintRight_creator="1"
             android:layout_marginEnd="1dp"
@@ -52,7 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="34dp"
-            android:text="iniciar"
+            android:text="@string/iniciar"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText7"
@@ -66,10 +68,8 @@
         android:layout_width="177dp"
         android:layout_height="38dp"
         android:layout_marginEnd="70dp"
-        android:layout_marginLeft="79dp"
-        android:layout_marginRight="8dp"
         android:layout_marginStart="79dp"
-        android:text="INICIO DE  SESION"
+        android:text="@string/inicio_de_sesion"
         android:textSize="18sp"
         app:layout_constraintHorizontal_bias="0.391"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -78,7 +78,8 @@
         tools:layout_constraintLeft_creator="1"
         tools:layout_constraintRight_creator="1"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="26dp" />
+        android:layout_marginTop="26dp"
+        android:textColor="#737373"/>
 
 
 </android.support.constraint.ConstraintLayout>
