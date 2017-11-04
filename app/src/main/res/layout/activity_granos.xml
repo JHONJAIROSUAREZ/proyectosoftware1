@@ -4,6 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
     tools:context="com.example.jj.proyectosoftware1.Categorias.Granos">
 
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="295dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#6c6a6a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnlenteja"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="LENTEJA ALGRAN 250 GR " />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="1dp"
+                android:text="FRIJOL CABEZA NEGRA 250 GR " />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="FRIJOL ZARAGOZA 250 GR " />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="MAIZ PIRA X 25 UND 250" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="ARVEJA VERDE ALGRAN 250" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="FRIJOL ZARAGOZA 500 GR" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="ALPISTE ALGRAN 250 GR X 25" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PRODUCTO1" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PRODUCTO 2" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PRODUCTO3" />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/Granos"
+        android:textColor="#919191"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
