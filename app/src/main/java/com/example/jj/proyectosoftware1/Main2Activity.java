@@ -7,12 +7,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.jj.proyectosoftware1.Categorias.Dulceria;
 import com.example.jj.proyectosoftware1.Categorias.Granos;
 import com.example.jj.proyectosoftware1.Categorias.Lacteos;
 
 public class Main2Activity extends AppCompatActivity {
-Button btngranos, btnlacteos;
-
+Button btngranos, btnlacteos, btndulceria;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,5 +37,13 @@ Button btngranos, btnlacteos;
         });
 
 
+        btndulceria=(Button)findViewById(R.id.btndulceria);
+        btndulceria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(Main2Activity.this,Dulceria.class);
+                startActivity(intent1);
+            }
+        });
     }
 }

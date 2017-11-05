@@ -7,4 +7,113 @@
     android:background="#000000"
     tools:context="com.example.jj.proyectosoftware1.Categorias.Dulceria">
 
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="295dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="#6c6a6a"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        app:layout_constraintVertical_bias="1.0">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/btnlenteja"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="BIANCHI CHOCOLATE BLANCO X 100" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="1dp"
+                android:text="BIANCHI CHOCOLATE NEGRO X 100 " />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="BOMBON SUPERCOCO X 50 " />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="TRULULU BOLSA X 100" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="TRULULU GUSANOS X 200" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="TRULULU TORTUGUITAS X 100" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="MENTA CHAO X 100" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PIN POP MANGO X 24 UND" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PIN POP BUMBA MEGA FRESA X 24 UND" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="PIN POP BUMBA MEGA FRUT X 24 UND" />
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/dulcerias"
+        android:textColor="#919191"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/nestedScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

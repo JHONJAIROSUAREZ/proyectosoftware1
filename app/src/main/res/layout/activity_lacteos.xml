@@ -11,7 +11,7 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="30dp"
         android:text="@string/lacteos"
         android:textColor="#919191"
         android:textSize="30sp"
