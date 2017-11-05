@@ -31,8 +31,8 @@ Button btngranos, btnlacteos;
             btnlacteos.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(Main2Activity.this,Lacteos.class);
-                    startActivity(intent);
+                    Intent intent1 = new Intent(Main2Activity.this,Lacteos.class);
+                    startActivity(intent1);
             }
         });
 
