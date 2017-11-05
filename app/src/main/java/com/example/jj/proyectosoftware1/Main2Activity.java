@@ -8,9 +8,11 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jj.proyectosoftware1.Categorias.Granos;
+import com.example.jj.proyectosoftware1.Categorias.Lacteos;
 
 public class Main2Activity extends AppCompatActivity {
-Button btngranos;
+Button btngranos, btnlacteos;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +24,15 @@ Button btngranos;
             public void onClick(View view) {
                 Intent intent = new Intent(Main2Activity.this,Granos.class);
                 startActivity(intent);
+            }
+        });
+
+            btnlacteos= (Button)findViewById(R.id.btnlacteos);
+            btnlacteos.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(Main2Activity.this,Lacteos.class);
+                    startActivity(intent);
             }
         });
 

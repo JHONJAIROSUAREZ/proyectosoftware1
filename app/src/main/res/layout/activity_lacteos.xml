@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.jj.proyectosoftware1.Categorias.Lacteos">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="58dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/lacteos"
+        android:textColor="#919191"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView01"
+        android:layout_width="328dp"
+        android:layout_height="385dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="110dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnyogocereal"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="0dp"
+                android:text="YOGO CEREAL VASO 164GR "
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="12dp" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:paddingEnd="0dp"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingStart="0dp"
+                android:paddingTop="1dp"
+                android:text="YOGURT MELOCOTON VASO 150GR " />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="YOGURT CIRUELA VASO 150GR" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="YOGURT AREQUIPE VASO 150GR" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="YOGURT FRESA VASO 150GR" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="YOGURT MORA VASO 150GR" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="YOG. ENT. DULCE CAJA 210GR" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="LECHE ENT.UHT BOLSA 200CC" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="LECHE ENT. UHT 900CC" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="GELATINA CEREZA VASO 120GR" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -35,7 +35,8 @@
         <activity
             android:name=".login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".Categorias.Granos"/>
+        <activity android:name=".Categorias.Granos" />
+        <activity android:name=".Categorias.Dulceria"></activity>
     </application>
 
 </manifest>
