@@ -27,13 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".registerclients"
+            android:name=".registro.registerclients"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".ModificarP"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
-            android:name=".login"
+            android:name=".registro.login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".Categorias.Granos"
@@ -44,7 +44,7 @@
         <activity
             android:name=".Categorias.Dulceria"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".register"></activity>
+        <activity android:name=".registro.register"></activity>
     </application>
 
 </manifest>

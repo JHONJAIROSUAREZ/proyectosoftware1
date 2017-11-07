@@ -1,7 +1,9 @@
-package com.example.jj.proyectosoftware1;
+package com.example.jj.proyectosoftware1.registro;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.jj.proyectosoftware1.R;
 
 public class registerclients extends AppCompatActivity {
 

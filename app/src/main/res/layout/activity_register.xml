@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.jj.proyectosoftware1.register">
+    tools:context="com.example.jj.proyectosoftware1.registro.register">
 
     <android.support.v7.widget.LinearLayoutCompat
         android:id="@+id/linearLayoutCompat"
@@ -22,7 +22,7 @@
 
 
         <EditText
-            android:id="@+id/etnombre"
+            android:id="@+id/editTextnombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -31,7 +31,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/etapellido"
+            android:id="@+id/editTextapellido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -40,7 +40,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/etcelular"
+            android:id="@+id/editTextcelular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -49,7 +49,7 @@
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/etdireccion"
+            android:id="@+id/editTextdireccion"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -58,7 +58,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/etcedula"
+            android:id="@+id/editTextcedula"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -67,7 +67,7 @@
             android:inputType="phone" />
 
         <EditText
-            android:id="@+id/etcodigo"
+            android:id="@+id/editTextcodigo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -76,7 +76,7 @@
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/etcontrasena"
+            android:id="@+id/editTextcontrasena"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

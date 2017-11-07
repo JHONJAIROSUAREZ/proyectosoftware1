@@ -1,4 +1,4 @@
-package com.example.jj.proyectosoftware1;
+package com.example.jj.proyectosoftware1.registro;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.example.jj.proyectosoftware1.MainActivity;
+import com.example.jj.proyectosoftware1.R;
 
 public class login extends AppCompatActivity {
 Button login;
