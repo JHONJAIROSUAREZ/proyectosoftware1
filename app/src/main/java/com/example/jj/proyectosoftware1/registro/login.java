@@ -11,7 +11,7 @@ import com.example.jj.proyectosoftware1.MainActivity;
 import com.example.jj.proyectosoftware1.R;
 
 public class login extends AppCompatActivity {
-Button login;
+Button login,btnregister;
 EditText txtusur,txtpass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,14 @@ EditText txtusur,txtpass;
             }
 
         });
-
+        btnregister = (Button)findViewById(R.id.btnregister);
+        btnregister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(login.this, register.class);
+                startActivity(intent);
+            }
+        });
 
     }
    /* public String enviardatosGET(String usu, String pas){

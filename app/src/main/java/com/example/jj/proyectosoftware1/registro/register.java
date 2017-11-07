@@ -1,14 +1,16 @@
 package com.example.jj.proyectosoftware1.registro;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AlertDialog;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import com.android.volley.RequestQueue;
 import com.android.volley.Response;
-import com.example.jj.proyectosoftware1.MainActivity;
+import com.android.volley.toolbox.Volley;
 import com.example.jj.proyectosoftware1.R;
 
 import org.json.JSONException;
@@ -22,14 +24,14 @@ Button registrar;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        etnombre = (EditText)findViewById(R.id.editTextnombre);
-        etapellido = (EditText)findViewById(R.id.editTextapellido);
-        etcelular = (EditText)findViewById(R.id.editTextcelular);
-       etdireccion = (EditText)findViewById(R.id.editTextdireccion);
-        etcedula = (EditText)findViewById(R.id.editTextcedula);
-        etcodigo = (EditText)findViewById(R.id.editTextcodigo);
-        etcontrasena = (EditText)findViewById(R.id.editTextcontrasena);
-        registrar = (Button)findViewById(R.id.btnregistrar);
+        etnombre = findViewById(R.id.editTextnombre);
+        etapellido = findViewById(R.id.editTextapellido);
+        etcelular = findViewById(R.id.editTextcelular);
+       etdireccion = findViewById(R.id.editTextdireccion);
+        etcedula = findViewById(R.id.editTextcedula);
+        etcodigo = findViewById(R.id.editTextcodigo);
+        etcontrasena = findViewById(R.id.editTextcontrasena);
+        registrar = findViewById(R.id.btnregistrar);
 
         registrar.setOnClickListener(this);
     }
@@ -51,8 +53,16 @@ Button registrar;
                     JSONObject jsonResponse = new JSONObject(response);
                     boolean success =jsonResponse.getBoolean("success");
                     if (success){
-                        Intent intent = new Intent(register.this, MainActivity.class);
+                        Intent intent = new Intent(register.this, login.class);
+                        AlertDialog.Builder builder = new AlertDialog.Builder(register.this);
+                        builder.setMessage("REGISTRO EXITOSO")
+                                .create().show();
+                        register.this.startActivity(intent);
                     }else{
+                        AlertDialog.Builder builder = new AlertDialog.Builder(register.this);
+                        builder.setMessage("ERROR EN EL REGISTRO")
+                        .setNegativeButton("RETRY",null)
+                                .create().show();
 
                     }
                 } catch (JSONException e) {
@@ -61,5 +71,7 @@ Button registrar;
             }
         };
         RegisterRequest registerRequest = new RegisterRequest(nombre_P,apellido,celular,direccion,cedula,codigo_P,CONTRASENA,respoListener);
+        RequestQueue queue = Volley.newRequestQueue(register.this);
+        queue.add(registerRequest);
     }
 }
