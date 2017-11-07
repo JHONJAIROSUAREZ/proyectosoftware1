@@ -35,12 +35,16 @@
         <activity
             android:name=".login"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".Categorias.Granos"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".Categorias.Lacteos"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".Categorias.Dulceria"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Categorias.Granos"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Categorias.Lacteos"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Categorias.Dulceria"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".register"></activity>
     </application>
 
 </manifest>
