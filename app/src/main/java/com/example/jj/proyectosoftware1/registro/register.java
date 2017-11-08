@@ -40,9 +40,9 @@ Button registrar;
     public void onClick(View view) {
         final String nombre_P=etnombre.getText().toString();
         final String apellido=etapellido.getText().toString();
-        final int celular=Integer.parseInt(etcelular.getText().toString());
+        final String celular=etcelular.getText().toString();
         final String direccion=etdireccion.getText().toString();
-        final int cedula=Integer.parseInt(etcedula.getText().toString());
+        final String cedula=etcedula.getText().toString();
         final String codigo_P=etcodigo.getText().toString();
         final String CONTRASENA=etcontrasena.getText().toString();
 
