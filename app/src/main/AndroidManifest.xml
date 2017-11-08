@@ -44,7 +44,8 @@
         <activity
             android:name=".Categorias.Dulceria"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".registro.register"></activity>
+        <activity android:name=".registro.register" />
+        <activity android:name=".registro.usuario"></activity>
     </application>
 
 </manifest>
