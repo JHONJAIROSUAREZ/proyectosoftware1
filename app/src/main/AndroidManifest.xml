@@ -5,10 +5,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="proyectosoftware1"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:icon="@mipmap/ic_launcherde"
+        android:label="Distribuciones Emanuel"
+        android:roundIcon="@mipmap/ic_launcherde_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -44,8 +45,10 @@
         <activity
             android:name=".Categorias.Dulceria"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".registro.register" />
-        <activity android:name=".registro.usuario"></activity>
+        <activity android:name=".registro.register"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".registro.usuario"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>

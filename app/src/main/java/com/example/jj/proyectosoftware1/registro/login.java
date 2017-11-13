@@ -24,9 +24,9 @@ EditText txtusur,txtpass;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        login = (Button)findViewById(R.id.btnlogin);
-        txtusur = (EditText)findViewById(R.id.txtusu);
-        txtpass = (EditText)findViewById(R.id.txtpass);
+        login = findViewById(R.id.btnlogin);
+        txtusur = findViewById(R.id.txtusu);
+        txtpass = findViewById(R.id.txtpass);
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -45,7 +45,9 @@ EditText txtusur,txtpass;
                                 String direccion = jsonResponse.getString("direccion");
                                 String cedula = jsonResponse.getString("cedula");
 
-                                Intent intent = new Intent(login.this, MainActivity.class);
+                                Intent intent = new Intent(login.this, usuario.class);
+
+
                                 intent.putExtra("nombre_P",nombre_P);
                                 intent.putExtra("apellido",apellido);
                                 intent.putExtra("telefono",telefono);
@@ -55,6 +57,8 @@ EditText txtusur,txtpass;
                                 intent.putExtra("CONTASENA",CONTRASENA);
 
                                 login.this.startActivity(intent);
+                                Intent intent1 = new Intent(login.this, MainActivity.class);
+                                startActivity(intent1);
                             }else{
                                 AlertDialog.Builder builder = new AlertDialog.Builder(login.this);
                                 builder.setMessage("ERROR EN EL LOGIN")
@@ -72,7 +76,7 @@ EditText txtusur,txtpass;
             }
 
         });
-        btnregister = (Button)findViewById(R.id.btnregister);
+        btnregister = findViewById(R.id.btnregister);
         btnregister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
