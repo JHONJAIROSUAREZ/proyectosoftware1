@@ -40,7 +40,7 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/btnyogocereal"
+                android:id="@+id/btncerealvaso"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:paddingLeft="0dp"

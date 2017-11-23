@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 
-import com.example.jj.proyectosoftware1.registro.login;
-
 public class splashscreen extends AppCompatActivity {
 
 
@@ -20,7 +18,7 @@ public class splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent3 = new Intent(splashscreen.this, login.class);
+                Intent intent3 = new Intent(splashscreen.this, MainActivity.class);
                 startActivity(intent3);
             }
         },3000);
