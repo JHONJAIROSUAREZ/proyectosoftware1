@@ -51,7 +51,7 @@
         <activity
             android:name=".registro.usuario"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".select_cliente"></activity>
+        <activity android:name=".select_cliente"/>
     </application>
 
 </manifest>
