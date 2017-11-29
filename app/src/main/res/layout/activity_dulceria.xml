@@ -26,7 +26,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ListView
+                android:id="@+id/clientList"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                tools:ignore="MissingPrefix">
+            </ListView >
 
+<!--
             <Button
                 android:id="@+id/btnlenteja"
                 android:layout_width="300dp"
@@ -95,6 +102,7 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:text="PIN POP BUMBA MEGA FRUT X 24 UND" />
+            -->
 
 
         </android.support.v7.widget.LinearLayoutCompat>

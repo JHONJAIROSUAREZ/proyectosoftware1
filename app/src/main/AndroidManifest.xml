@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcherde"
         android:label="Distribuciones Emanuel"
@@ -46,10 +45,13 @@
         <activity
             android:name=".Categorias.Dulceria"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".registro.register"
+        <activity
+            android:name=".registro.register"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".registro.usuario"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".registro.usuario"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".select_cliente"></activity>
     </application>
 
 </manifest>
