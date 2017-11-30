@@ -6,10 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.jj.proyectosoftware1.ModificarP"
     android:paddingLeft="10dp"
-    android:paddingRight="10dp">
+    android:paddingRight="10dp"
+    android:background="#0F0E0E">
 
     <TextView
     android:id="@+id/textView8"
+        android:background="#494949"
     android:layout_width="0dp"
     android:layout_height="37dp"
     android:layout_marginTop="311dp"
@@ -26,6 +28,7 @@
     <TextView
         android:id="@+id/textView7"
         android:layout_width="0dp"
+        android:background="#494949"
         android:layout_height="37dp"
         android:layout_marginTop="274dp"
         android:text="Pedido 2              Cliente xxxxxxxxx         26/10/2017"
@@ -41,6 +44,7 @@
     <TextView
         android:id="@+id/textView6"
         android:layout_width="0dp"
+        android:background="#494949"
         android:layout_height="37dp"
         android:layout_marginTop="237dp"
         android:text="Pedido 3              Cliente xxxxxxxxx         26/10/2017"
@@ -56,6 +60,7 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="0dp"
+        android:background="#494949"
         android:layout_height="37dp"
         android:layout_marginTop="201dp"
         android:text="Pedido 4              Cliente xxxxxxxxx         26/10/2017"
@@ -71,6 +76,7 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="0dp"
+        android:background="#494949"
         android:layout_height="37dp"
         android:layout_marginTop="164dp"
         android:text="Pedido 5              Cliente xxxxxxxxx         28/10/2017"
@@ -87,6 +93,7 @@
         android:id="@+id/textView2"
         android:layout_width="0dp"
         android:layout_height="37dp"
+        android:background="#494949"
         android:layout_marginTop="90dp"
         android:text="Pedido 6              Cliente xxxxxxxxx         28/10/2017"
         android:textSize="15sp"
@@ -101,6 +108,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="0dp"
+        android:background="#494949"
         android:layout_height="37dp"
         android:layout_marginTop="127dp"
         android:text="Pedido 7              Cliente xxxxxxxxx         28/10/2017"
@@ -117,15 +125,17 @@
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PEDIDOS"
 
+        android:layout_marginTop="4dp"
+
+        android:text="PEDIDOS"
+        android:textColor="@color/ic_launcher_background"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="4dp"
-        tools:layout_constraintLeft_creator="1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 </android.support.constraint.ConstraintLayout>
