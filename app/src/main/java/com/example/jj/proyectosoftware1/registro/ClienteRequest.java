@@ -11,7 +11,7 @@ import java.util.Map;
  */
 
 public class ClienteRequest extends StringRequest {
-    private static final String REGISTER_REQUEST_URL="http://192.168.43.31:8080/Cliente.php";
+    private static final String REGISTER_REQUEST_URL="http://192.168.11.5:8080/Cliente.php";
     private Map<String,String> params;
     public ClienteRequest(String nombre, String apellido, String cedula, String direccion, String nombre_T,String correo,Response.Listener<String>listener){
         super(Method.POST, REGISTER_REQUEST_URL,listener,null);

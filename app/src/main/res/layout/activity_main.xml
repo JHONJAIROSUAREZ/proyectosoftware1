@@ -10,19 +10,19 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="302dp"
-        android:layout_height="0dp"
+        android:layout_width="324dp"
+        android:layout_height="171dp"
         android:layout_marginBottom="303dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="37dp"
         android:contentDescription="@string/imagen"
         app:layout_constraintBottom_toTopOf="@+id/btnactivo"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/copia" />
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@mipmap/LogoEmanuelTransparente" />
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/constraintLayout"
