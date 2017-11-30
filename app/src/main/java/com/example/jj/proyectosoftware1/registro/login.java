@@ -1,6 +1,7 @@
 package com.example.jj.proyectosoftware1.registro;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -24,6 +25,7 @@ EditText txtusur,txtpass;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         login = findViewById(R.id.btnlogin);
         txtusur = findViewById(R.id.txtusu);
         txtpass = findViewById(R.id.txtpass);

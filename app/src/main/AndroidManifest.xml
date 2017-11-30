@@ -7,9 +7,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcherde"
+        android:icon="@mipmap/ic_launcher_lelog"
         android:label="Distribuciones Emanuel"
-        android:roundIcon="@mipmap/ic_launcherde_round"
+        android:roundIcon="@mipmap/ic_launcher_lelog_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity

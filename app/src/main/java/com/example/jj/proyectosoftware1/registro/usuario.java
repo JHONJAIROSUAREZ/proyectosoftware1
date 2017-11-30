@@ -1,6 +1,7 @@
 package com.example.jj.proyectosoftware1.registro;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
@@ -13,6 +14,7 @@ TextView TextViewnombre,TextViewapellido,TextViewtelefono,TextViewdireccion,Text
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_usuario);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
             TextViewnombre = findViewById(R.id.tvnombre);
         TextViewapellido = findViewById(R.id.tvapellido);
         TextViewtelefono = findViewById(R.id.tvtelefono);

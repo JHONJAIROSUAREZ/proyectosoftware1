@@ -10,7 +10,6 @@ import android.view.View;
 import android.widget.Button;
 
 import com.example.jj.proyectosoftware1.registro.registerclients;
-import com.example.jj.proyectosoftware1.registro.usuario;
 
         public class MainActivity extends AppCompatActivity {
             Button ingresar,modificar,clientes,btnactivos;
@@ -43,7 +42,7 @@ import com.example.jj.proyectosoftware1.registro.usuario;
                         startActivity(modificar);
                     }
                 });
-                btnactivos = findViewById(R.id.btnactivo);
+            /*    btnactivos = findViewById(R.id.btnactivo);
                 btnactivos.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -51,7 +50,7 @@ import com.example.jj.proyectosoftware1.registro.usuario;
                         startActivity(activo);
                     }
                 });
-
+*/
             }
 
             @Override

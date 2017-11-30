@@ -1,6 +1,7 @@
 package com.example.jj.proyectosoftware1.registro;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -23,7 +24,7 @@ Button registrar;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         etnombre = findViewById(R.id.editTextnombre);
         etapellido = findViewById(R.id.editTextapellido);
         etcelular = findViewById(R.id.editTextcelular);
