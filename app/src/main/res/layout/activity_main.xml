@@ -12,16 +12,13 @@
         android:id="@+id/imageView5"
         android:layout_width="324dp"
         android:layout_height="171dp"
-        android:layout_marginBottom="303dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginTop="37dp"
         android:contentDescription="@string/imagen"
-        app:layout_constraintBottom_toTopOf="@+id/btnactivo"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.954"
         app:srcCompat="@mipmap/LogoEmanuelTransparente" />
 
     <android.support.constraint.ConstraintLayout
@@ -109,16 +106,6 @@
             tools:layout_constraintRight_creator="1"
             tools:layout_constraintTop_creator="1" />
     </android.support.constraint.ConstraintLayout>
-
-    <Button
-        android:id="@+id/btnactivo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="30dp"
-        android:text="ACTIVO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent" />
 
 
 </android.support.constraint.ConstraintLayout>
